@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import SDWebImage
 
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var heroImage: UIImageView!
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+                label.text = detail.name
             }
+            self.heroImage.sd_setImage(with: URL(string: detail.imageString!))
         }
     }
 
@@ -33,10 +36,9 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: Hero? {
         didSet {
             // Update the view.
-            self.configureView()
         }
     }
 

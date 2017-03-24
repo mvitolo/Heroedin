@@ -7,7 +7,7 @@ PODS:
     - CocoaLumberjack/Default
   - CocoaLumberjack/Swift (3.0.0):
     - CocoaLumberjack/Extensions
-  - CryptoSwift (0.6.7)
+  - CryptoSwift (0.6.8)
   - libwebp (0.5.1):
     - libwebp/core (= 0.5.1)
     - libwebp/dec (= 0.5.1)
@@ -61,7 +61,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
-  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
+  CryptoSwift: f21ea03ed3a94e79d241648ce26652cd4810508a
   libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
   Mockingjay: 7122a3fc0597aa63438e4cd9b71b7bc8aac05b87
   Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
